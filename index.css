@@ -10,6 +10,10 @@ body {
 .dark-mode #crd {
   color: black;
 }
+.dark-mode nav {
+  background-color: black;
+  color: #ddd;
+}
 
 .fa {
   cursor: pointer;
@@ -30,11 +34,11 @@ nav {
   background-color: #f0f0f0;
   border: none;
   color: black;
-  padding: 10px 20px;
+  padding: 6px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 8px 5px;
   cursor: pointer;
   border-radius: 35px;
 }
@@ -78,11 +82,11 @@ input[type="search"] {
 input[type="search"]:focus {
   width: 130px;
   background-color: #fff;
-  border-color: #66cc75;
+  border-color: #0a0a0a;
 
-  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
-  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
-  box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(47, 47, 47, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(32, 32, 32, 0.5);
+  box-shadow: 0 0 5px rgba(53, 53, 53, 0.5);
 }
 
 input:-moz-placeholder {
