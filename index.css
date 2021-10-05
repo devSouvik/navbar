@@ -15,12 +15,20 @@ body {
   background-color: black;
   color: #ddd;
 }
+.dark-mode .card-header {
+  background-color: #082032;
+  color: wheat;
+}
 
-.fa {
+.dark-mode .fa {
   cursor: pointer;
   user-select: none;
 }
 
+.dark-mode #dropdown {
+  background-color: #616e7c;
+  color: #e4e7eb;
+}
 /* .fa:hover {
   
 } */
@@ -122,3 +130,11 @@ input::-webkit-input-placeholder {
   color: transparent;
 }
 /* search box ends */
+
+.follow-button {
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
