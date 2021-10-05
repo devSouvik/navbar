@@ -151,3 +151,8 @@ input::-webkit-input-placeholder {
 .follow-button:hover {
   background-color: whitesmoke;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
