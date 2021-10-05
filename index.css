@@ -1,0 +1,140 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.dark-mode {
+  background-color: #222222;
+  color: white;
+}
+.dark-mode #crd {
+  color: black;
+}
+.dark-mode nav {
+  background-color: black;
+  color: #ddd;
+}
+.dark-mode .card-header {
+  background-color: #082032;
+  color: wheat;
+}
+
+.dark-mode .fa {
+  cursor: pointer;
+  user-select: none;
+}
+
+.dark-mode #dropdown {
+  background-color: #616e7c;
+  color: #e4e7eb;
+}
+/* .fa:hover {
+  
+} */
+
+nav {
+  box-shadow: 0px 7px 8px 0px rgba(143, 133, 133, 0.4);
+  -webkit-box-shadow: 0px 7px 8px 0px rgba(143, 133, 133, 0.4);
+  -moz-box-shadow: 0px 7px 8px 0px rgba(143, 133, 133, 0.4);
+}
+
+.button {
+  background-color: #f0f0f0;
+  border: none;
+  color: black;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 5px;
+  cursor: pointer;
+  border-radius: 35px;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+/* search box */
+
+input {
+  outline: none;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+input[type="search"] {
+  background: #ededed
+    url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat
+    9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+input[type="search"]:focus {
+  width: 130px;
+  background-color: #fff;
+  border-color: #0a0a0a;
+
+  -webkit-box-shadow: 0 0 5px rgba(47, 47, 47, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(32, 32, 32, 0.5);
+  box-shadow: 0 0 5px rgba(53, 53, 53, 0.5);
+}
+
+input:-moz-placeholder {
+  color: #999;
+}
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+/* Demo 2 */
+#demo-2 input[type="search"] {
+  width: 25px;
+  height: 20px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+#demo-2 input[type="search"]:hover {
+  background-color: #fff;
+}
+#demo-2 input[type="search"]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+  color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+  color: transparent;
+}
+/* search box ends */
+
+.follow-button {
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
