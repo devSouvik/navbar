@@ -137,4 +137,17 @@ input::-webkit-input-placeholder {
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 15x;
+  border-color: black;
+  border-width: 1px;
+  background-color: white;
+}
+
+.info {
+  font-size: 12px;
+  color: #999;
+}
+
+.follow-button:hover {
+  background-color: whitesmoke;
 }
