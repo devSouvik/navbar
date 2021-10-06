@@ -1,5 +1,5 @@
 body {
-  /* background-color: white; */
+  background-color: white;
   /* background: rgb(255, 255, 211);
   background: linear-gradient(
     180deg,
@@ -14,13 +14,13 @@ body {
     rgba(240, 216, 216, 1) 50%,
     rgba(240, 240, 240, 1) 100%
   ); */
-  background: rgb(242, 243, 242);
+  /* background: rgb(242, 243, 242);
   background: linear-gradient(
     90deg,
     rgba(242, 243, 242, 1) 0%,
     rgba(249, 249, 248, 1) 50%,
     rgba(245, 245, 245, 1) 100%
-  );
+  ); */
   color: black;
   font-family: "Ubuntu", sans-serif;
 }
