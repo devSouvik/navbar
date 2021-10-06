@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   font-family: "Ubuntu", sans-serif;
 }
@@ -165,6 +165,8 @@ a:hover {
   content: url(bookmark-regular.svg);
   margin-left: 30px;
   width: 15px;
+  display: flex;
+  float: right;
 }
 .hollow-bookmark:hover {
   width: 18px;
