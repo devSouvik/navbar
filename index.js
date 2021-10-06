@@ -6,5 +6,9 @@ function myFunction(x) {
 }
 
 function bookmarkIconChange(x) {
-  x.classList.toggle("fa-bookmark");
+  x.classList.toggle("solid-bookmark");
+}
+
+function followed(x) {
+  x.classList.toggle("followed");
 }
