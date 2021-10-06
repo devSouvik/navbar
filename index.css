@@ -166,9 +166,21 @@ a:hover {
   margin-left: 30px;
   width: 15px;
 }
+.hollow-bookmark:hover {
+  width: 18px;
+}
 
 .solid-bookmark {
   content: url(bookmark-solid.svg);
   margin-left: 30px;
   width: 15px;
+}
+
+.follow {
+  content: url(https://img.icons8.com/windows/32/000000/add-user-male--v1.png);
+  size: 15px;
+}
+
+.followed {
+  content: url(https://img.icons8.com/ios-glyphs/30/000000/checkmark--v1.png);
 }
