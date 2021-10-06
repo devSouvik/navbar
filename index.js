@@ -4,3 +4,7 @@ function myFunction(x) {
 
   x.classList.toggle("fa-cloud-sun");
 }
+
+function bookmarkIconChange(x) {
+  x.classList.toggle("fa-bookmark");
+}

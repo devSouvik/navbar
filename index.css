@@ -131,18 +131,6 @@ input::-webkit-input-placeholder {
 }
 /* search box ends */
 
-.follow-button {
-  border-radius: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 15x;
-  border-color: black;
-  border-width: 1px;
-  background-color: white;
-}
-
 .info {
   font-size: 12px;
   color: #999;
@@ -159,4 +147,16 @@ a {
 
 a:hover {
   color: black;
+}
+
+#readinglist {
+  margin-top: 20px;
+}
+
+.post_flair {
+  border-color: black;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 30px;
+  border-width: 1px;
 }
