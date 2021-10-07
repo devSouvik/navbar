@@ -1,26 +1,5 @@
 body {
   background-color: white;
-  /* background: rgb(255, 255, 211);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 211, 1) 0%,
-    rgba(255, 255, 240, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
-  ); */
-  /* background: rgb(240, 192, 192);
-  background: linear-gradient(
-    -180deg,
-    rgba(240, 192, 192, 1) 0%,
-    rgba(240, 216, 216, 1) 50%,
-    rgba(240, 240, 240, 1) 100%
-  ); */
-  /* background: rgb(242, 243, 242);
-  background: linear-gradient(
-    90deg,
-    rgba(242, 243, 242, 1) 0%,
-    rgba(249, 249, 248, 1) 50%,
-    rgba(245, 245, 245, 1) 100%
-  ); */
   color: black;
   font-family: "Ubuntu", sans-serif;
 }
@@ -94,22 +73,22 @@ input::-webkit-search-cancel-button {
 }
 
 input[type="search"] {
-  background: #ededed
-    url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat
-    9px center;
-  border: solid 1px #ccc;
+  background: url(https://img.icons8.com/ios-glyphs/30/000000/search--v1.png)
+    no-repeat 9px center;
+  /* border: solid 1px #ccc; */
   padding: 9px 10px 9px 32px;
   width: 55px;
 
-  -webkit-border-radius: 10em;
-  -moz-border-radius: 10em;
-  border-radius: 10em;
+  /* -webkit-border-radius: 10em; */
+  /* -moz-border-radius: 10em; */
+  /* border-radius: 10em; */
+  border: none;
 
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-input[type="search"]:focus {
+/* input[type="search"]:focus {
   width: 130px;
   background-color: #fff;
   border-color: #0a0a0a;
@@ -117,13 +96,13 @@ input[type="search"]:focus {
   -webkit-box-shadow: 0 0 5px rgba(47, 47, 47, 0.5);
   -moz-box-shadow: 0 0 5px rgba(32, 32, 32, 0.5);
   box-shadow: 0 0 5px rgba(53, 53, 53, 0.5);
-}
+} */
 
 input:-moz-placeholder {
-  color: #999;
+  color: whitesmoke;
 }
 input::-webkit-input-placeholder {
-  color: #999;
+  color: whitesmoke;
 }
 
 /* Demo 2 */
@@ -134,14 +113,14 @@ input::-webkit-input-placeholder {
   color: transparent;
   cursor: pointer;
 }
-#demo-2 input[type="search"]:hover {
+/* #demo-2 input[type="search"]:hover {
   background-color: #fff;
-}
+} */
 #demo-2 input[type="search"]:focus {
   width: 130px;
   padding-left: 32px;
   color: #000;
-  background-color: #fff;
+  background-color: whitesmoke;
   cursor: auto;
 }
 #demo-2 input:-moz-placeholder {

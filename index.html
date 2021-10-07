@@ -49,12 +49,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarNav">
+          
           <ul class="navbar-nav ms-auto">
             <form id="demo-2">
               <input type="search" placeholder="Search" />
             </form>
-
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i onclick="myFunction(this)" class="fas fa-cloud-moon"></i>
+              </a>
+            </li>
+            <div id="action">
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -64,14 +71,14 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img
+                <img class="dropdown-toggle"
                   src="https://img.icons8.com/small/32/000000/user-male-circle.png"
                   width="25"
                 />
               </a>
               <ul
                 id="dropdown"
-                class="dropdown-menu"
+                class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start"
                 aria-labelledby="navbarDropdown"
               >
                 <li>
@@ -121,15 +128,9 @@
                     &nbsp; Log out</a>
                 </li>
               </ul>
+              
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                <i onclick="myFunction(this)" class="fas fa-cloud-moon"></i>
-              </a>
-            </li>
+            
           </ul>
         </div>
         <!-- </div> -->
